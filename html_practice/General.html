@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        table {
+
+            padding: 100px;
+            margin: 75px;
+        }
+
+        .btn btn-light {
+            margin: 50%;
+        }
+
+        .nav-item {
+            display: block;
+        }
+
+        .image {
+            width: 30px;
+            font-size: 30px;
+        }
+
+        .navbar {
+            width: 100vw;
+        }
+
+        .nav-link {
+            width: 140px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div style="border: 10px solid whitesmoke;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#"><img  class="image " src="house-door.svg"><div class="nav-name">Home</div></a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><img class="image"
+                                        src="house-door.svg">
+                                    <div class="nav-name">Home</div>
+                                </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./General.html"><b><img class="image"
+                                        src="person-circle.svg">
+                                    <div class="nav-name">General</div>
+                                </b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./personal.html"><i class="fa-regular fa-user"></i><br>
+                                <div class="nav-name">Personal</div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html"><img class="image" src="person-lines-fill.svg">
+                                <div class="nav-name">Contact</div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img class="image" src="suitcase-lg-fill.svg">
+                                <div class="nav-name">Skills</div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-rotate-right fa-rotate-270 image"></i>
+                                <div class="nav-name">Job History</div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img class="image" src="graph-up-arrow.svg">
+                                <div class="nav-name">Performance</div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-paperclip image"></i>
+                                <div class="nav-name">Attachments</div>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <form name="general" id="#g" action="" method="get">
+
+        <div style="border: 10px solid whitesmoke ;">
+            <table style="float: left; margin-right: 75px;">
+
+                <tr>
+                    <td><label>Employee Code</label></td>
+                    <td><input type="employee code"></td>
+                </tr>
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td><input type="First Name"></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name</label></td>
+                    <td><input type="Last Name"></td>
+                </tr>
+                <tr>
+                    <td><label>Direct Manager*</label></td>
+                    <td><input type="Direct Manager"></td>
+                </tr>
+                <tr>
+                    <td><label>Department*</label></td>
+                    <td><input type="Department"></td>
+                </tr>
+                <tr>
+                    <td><label>Grade*</label></td>
+                    <td><input type="grade"></td>
+                </tr>
+                <tr>
+                    <td><label>Location*</label></td>
+                    <td><input type="location"></td>
+                </tr>
+            </table>
+
+
+
+            <table style="float: left;">
+
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email"></td>
+
+                </tr>
+                <tr>
+                    <td><label>Shift*</label></td>
+                    <td><input type="Shift"></td>
+                </tr>
+                <tr>
+                    <td><label>Employee Type*</label></td>
+                    <td><input type="Employee type"></td>
+                </tr>
+                <tr>
+                    <td><label>Internship Date</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Date of Joining</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Date of Leaving</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Reference</label></td>
+                    <td><input type="reference"></td>
+                </tr>
+
+            </table>
+            <div style="clear:both ;"></div>
+            <div style="text-align: end;">
+                <button type="button" class="btn btn-light">Save</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
